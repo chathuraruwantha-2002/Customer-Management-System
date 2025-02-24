@@ -1,9 +1,10 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/customer_manage_system_ICET
+    url: jdbc:mysql://localhost:3306/customerManagerICET
     username: root
-    password:
+    password: ""
 
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
+

@@ -6,7 +6,7 @@ function loadCustomer() {
             console.log(data)
 
             let tableRow = `
-                <caption>2025 Customers</caption>
+                
                 <tr>
                     <th>ID</th>
                     <th>Name</th>

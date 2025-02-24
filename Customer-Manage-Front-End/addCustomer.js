@@ -27,4 +27,12 @@ function addCustomer() {
         .then((result) => console.log(result))
         .catch((error) => console.error(error));
 
+    clearForm();
+
+}
+
+function clearForm() {
+    document.getElementById("txtName").value = "";
+    document.getElementById("txtAddress").value = "";
+    document.getElementById("txtSalary").value = "";
 }
